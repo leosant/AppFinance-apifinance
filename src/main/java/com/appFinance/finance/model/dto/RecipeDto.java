@@ -6,7 +6,7 @@ public class RecipeDto {
     private String name;
     private String describe;
     private double value;
-    private Long date;
+    private String date;
     private boolean isVisible;
     private String idWallet;
 
@@ -34,11 +34,11 @@ public class RecipeDto {
         this.describe = describe;
     }
 
-    public Long getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Long date) {
+    public void setDate(String date) {
         this.date = date;
     }
 

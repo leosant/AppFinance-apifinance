@@ -1,5 +1,6 @@
 package com.appFinance.finance.model;
 
+import com.appFinance.finance.enums.ColorCardEnum;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -19,7 +20,7 @@ public class Wallet {
     private List<Recipe> recipe;
     @DBRef
     private List<Cost> cost;
-    private String colorCard;
+    private ColorCardEnum colorCard;
 
     public String getId() {
         return id;
@@ -69,11 +70,11 @@ public class Wallet {
         this.cost = cost;
     }
 
-    public String getColorCard() {
+    public ColorCardEnum getColorCard() {
         return colorCard;
     }
 
-    public void setColorCard(String colorCard) {
+    public void setColorCard(ColorCardEnum colorCard) {
         this.colorCard = colorCard;
     }
 }
