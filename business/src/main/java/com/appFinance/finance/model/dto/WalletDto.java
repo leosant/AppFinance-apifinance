@@ -1,10 +1,5 @@
 package com.appFinance.finance.model.dto;
 
-import com.appFinance.finance.model.Cost;
-import com.appFinance.finance.model.Recipe;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonValue;
-
 import java.util.List;
 
 public class WalletDto {

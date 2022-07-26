@@ -5,8 +5,17 @@
 
 	<groupId>com.appFinance.finance</groupId>
 	<artifactId>finance</artifactId>
-	<version>1.0.0</version>
-	<name>appFinance-finance</name>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+
+    <modules>
+		<module>app</module>
+		<module>business</module>
+		<module>payment</module>
+		<module>security</module>
+	</modules>
+
+    <name>appFinance-finance</name>
 
 	<properties>
 		<java.version>11</java.version>
